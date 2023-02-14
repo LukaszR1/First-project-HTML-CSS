@@ -2,31 +2,37 @@ html {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
+
 .section-title {
   font-weight: 700;
   color: #fff;
   font-size: 36px;
   padding-bottom: 80px;
 }
+
 .container-navigation,
 .container-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list-navigation {
   display: flex;
   justify-content: space-between;
   width: 300px;
 }
+
 .logo {
   font-size: 18px;
   font-weight: 700;
 }
+
 nav,
 .footer {
   display: flex;
@@ -34,13 +40,16 @@ nav,
   height: 50px;
   color: #fff;
 }
+
 a {
   color: #fff;
   text-decoration: none;
 }
+
 .contact {
   cursor: not-allowed;
 }
+
 .header {
   display: flex;
   height: calc(100vh - 50px);
@@ -48,25 +57,30 @@ a {
   background-size: cover;
   color: #fff;
 }
-.cover {
+
+.header-cover {
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
-.main-container {
+
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
-.wrapper {
+
+.wrapper-header-content {
   display: flex;
   flex-direction: column;
   width: 60%;
 }
-.main-paragraph {
+
+.header-paragraph {
   font-size: 18px;
   padding-bottom: 50px;
 }
+
 .button-link {
   background-color: transparent;
   text-align: center;
@@ -79,10 +93,12 @@ a {
   cursor: pointer;
   transition: 1s;
 }
+
 .button-link:hover {
   background-color: #fff;
   color: black;
 }
+
 .about-us {
   display: flex;
   justify-content: center;
@@ -90,13 +106,16 @@ a {
   background: rgba(241, 241, 241, 1);
   padding: 50px 0px;
 }
-.container-workers {
+
+.container-employees {
   display: flex;
   flex-direction: column;
 }
-.section-title-employe {
+
+.employees-section-title {
   color: #152d41;
 }
+
 .img-employe-one,
 .img-employe-two {
   width: 190px;
@@ -105,38 +124,47 @@ a {
   border-radius: 50%;
   background-position: center;
 }
+
 .img-employe-one {
   background-image: url(./img/Pracownik-1.PNG);
 }
+
 .img-employe-two {
   background-image: url(./img/Pracownik-2.PNG);
 }
+
 .about-employe-one,
 .about-employe-two,
 .footer-icons {
   display: flex;
   align-items: center;
 }
+
 .about-employe-two {
   flex-direction: row-reverse;
 }
+
 .paragraph-employe,
-.box-paragraph {
+.new-offer-paragraph {
   font-size: 18px;
 }
+
 .employe-one,
 .employe-two {
   margin: 30px;
   width: 70%;
 }
+
 .employe-two {
   text-align: right;
 }
+
 .name-employe {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 30px;
 }
+
 .offer-section {
   background-color: rgba(64, 93, 120, 1);
   padding: 50px 0px;
@@ -148,6 +176,7 @@ a {
   justify-content: center;
   gap: 50px;
 }
+
 .box {
   display: flex;
   height: 200px;
@@ -159,11 +188,13 @@ a {
   font-size: 24px;
   transition: 0.5s;
 }
+
 .box-new-offer {
   display: flex;
   flex-direction: column;
   position: relative;
 }
+
 .dot {
   width: 22px;
   height: 22px;
@@ -173,12 +204,15 @@ a {
   top: -11px;
   left: -11px;
 }
+
 .box:hover {
   transform: scale(1.05);
 }
+
 .footer {
   height: 70px;
 }
+
 .fa-square-facebook,
 .fa-instagram {
   font-size: 30px;
